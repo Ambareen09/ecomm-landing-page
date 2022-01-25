@@ -206,6 +206,9 @@
   font-family: "Cormorant Garamond";
   margin-top: 5%;
 }
+.foot {
+  color: #3e3e3e;
+}
 .b1 {
   border-right: 2px solid #ff9300;
   text-align: right;
@@ -327,12 +330,13 @@ em {
 
 /*SECTION5*/
 .btn btn-outline-secondary {
-  background-color: black;
+  background-color: #3e3e3e;
   color: white;
 }
 .footer button {
-  background-color: black;
+  background-color: #3e3e3e;
   color: white;
+  padding: 0% 3%;
 }
 
 @media (max-width: 1020px) {
@@ -361,6 +365,7 @@ em {
   padding: 5rem 0;
   margin-left: 10%;
   margin-right: 5%;
+  font-family: "Roboto";
 }
 
 .footer section {
@@ -392,7 +397,14 @@ em {
   margin-right: 5px;
   color: var(--white);
 }
-
+.form-control {
+  border-radius: 10px 0px 0px 10px;
+  padding-left: 5%;
+}
+.btn-c {
+  border-radius: 0px 10px 10px 0px;
+  border: 0px;
+}
 .footer section a span {
   margin: 0 10px;
 }
@@ -401,6 +413,10 @@ em {
   text-align: Center;
   color: var(--gray);
   padding: 1rem 0;
+}
+.foot-head p {
+  margin-top: 10%;
+  text-transform: capitalize;
 }
 
 @media screen and (max-width: 786px) {
