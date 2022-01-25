@@ -41,7 +41,7 @@
 .container-box {
   width: 35%;
   height: 2%;
-  border: 1px solid black;
+  border: 1px solid #3e3e3e;
   border-radius: 10px;
   margin-left: 5%;
   margin-right: 10%;
@@ -54,7 +54,7 @@
 }
 .sign-in a {
   text-decoration: none;
-  color: black;
+  color: #3e3e3e;
   margin-right: 2%;
 }
 .sign-in a:hover {
@@ -125,7 +125,7 @@
   font-size: 1rem;
 }
 .sub-top-sell {
-  color: black;
+  color: #3e3e3e;
   font-family: "Cormorant Garamond";
   font-size: 30px;
 }
@@ -241,7 +241,7 @@ html {
   scrollbar-color: rgb(210, 210, 210) rgb(46, 54, 69) !important;
   scrollbar-width: thin !important;
   --white: #fff;
-  --black: #131417;
+  --#3E3E3E: #131417;
   --primary: #5bc348;
   --primarylite: #53b141;
   --gray: #6d7175;
@@ -371,6 +371,9 @@ em {
   margin-right: 5%;
   font-family: "Roboto";
 }
+.footer-border {
+  border-right: 1px solid #ff9300;
+}
 
 .footer section {
   padding: 1rem 2rem;
@@ -379,11 +382,11 @@ em {
 }
 
 .footer section h3 {
-  color: black;
+  color: #3e3e3e;
 }
 
 .footer section a {
-  color: var(--gray);
+  color: #3e3e3e;
   display: flex;
   align-items: center;
   white-space: nowrap;
