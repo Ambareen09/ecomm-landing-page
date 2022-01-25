@@ -6,6 +6,10 @@
   display: flex;
   width: 90%;
 }
+.bg-light {
+  --bs-bg-opacity: 0;
+  background-color: transparent;
+}
 .container {
   box-sizing: border-box;
   border-top: 10px solid #ff9300;
