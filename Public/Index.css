@@ -71,6 +71,7 @@
   border: none;
   border-radius: 100px;
   outline: none;
+  font-style: italic;
 }
 
 .search-button {
@@ -225,52 +226,11 @@
   margin-left: 2%;
 }
 
-/*CUSTOM SCROLL BAR*/
-*,
-html {
-  scroll-behavior: smooth;
-}
-*,
-*:after,
-*:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-:root {
-  scrollbar-color: rgb(210, 210, 210) rgb(46, 54, 69) !important;
-  scrollbar-width: thin !important;
-  --white: #fff;
-  --#3E3E3E: #131417;
-  --primary: #5bc348;
-  --primarylite: #53b141;
-  --gray: #6d7175;
-  --dark: #253248;
-  --darklite: #364256;
-  --lite: #f8f9fa;
-}
-::-webkit-scrollbar {
-  height: 12px;
-  width: 8px;
-  /* background: var(--dark); */
-}
-::-webkit-scrollbar-thumb {
-  background: gray;
-  /* -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75); */
-}
-::-webkit-scrollbar-corner {
-  background: var(--dark);
-}
-
 /*DEFAULT*/
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto";
   margin: 0;
   overflow-x: hidden !important;
-}
-
-.title {
-  font-family: "Merriweather", serif;
 }
 
 a {
@@ -407,6 +367,7 @@ em {
 .form-control {
   border-radius: 10px 0px 0px 10px;
   padding-left: 5%;
+  font-size: 0.95rem;
 }
 .btn-c {
   border-radius: 0px 10px 10px 0px;
